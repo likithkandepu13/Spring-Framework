@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    <class name="com.klu.JFSDS25_SPRING_Hibernate.Employee" table="employee">
+        <id name="eid" column="eid" type="int">
+            <generator class="native"/>
+        </id>
+        <property name="ename" column="ename" type="string"/>
+        <property name="esal" column="esal" type="double"/>
+    </class>
+</hibernate-mapping>
