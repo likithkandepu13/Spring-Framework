@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    <class name="com.klu.JFSDS25_Spring_JDBC_.Employee">
+        <id name="eid"/>
+        <property name="ename"/>
+        <property name="esal"/>
+    </class>
+</hibernate-mapping>
